@@ -1,0 +1,14 @@
+[language-server.openscad]
+command = "openscad-lsp"
+
+
+# https://nathanielknight.ca/articles/helix_for_python.html
+# pipx install python-lsp-server
+# pipx inject python-lsp-server python-lsp-ruff python-lsp-black
+[language-server.pylsp.config.pylsp]
+plugins.ruff.enabled = true
+plugins.black.enabled = true
+
+
+[[language]]
+name="rust"
