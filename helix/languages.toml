@@ -9,6 +9,6 @@ command = "openscad-lsp"
 plugins.ruff.enabled = true
 plugins.black.enabled = true
 
-
+# rustup component add rust-analyzer
 [[language]]
 name="rust"
