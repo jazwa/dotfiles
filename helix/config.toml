@@ -1,0 +1,6 @@
+
+theme = "solarized-light"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
