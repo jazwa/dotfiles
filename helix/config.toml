@@ -1,5 +1,5 @@
 
-theme = "solarized-light"
+theme = "solarized_light"
 
 [editor.cursor-shape]
 insert = "bar"
