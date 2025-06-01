@@ -1,5 +1,5 @@
 
-theme = "solarized_light"
+theme = "gruvbox"
 
 [editor.cursor-shape]
 insert = "bar"
