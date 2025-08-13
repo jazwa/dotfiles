@@ -14,4 +14,7 @@ end-of-line-diagnostics = "hint"
 # Note that `cursor-line` diagnostics are hidden in insert mode.
 cursor-line = "error"
 # Minimum severity to show a diagnostic on other lines:
-# other-lines = "error"
+other-lines = "error"
+
+[keys.normal]
+"a" = { "o" = "expand_selection",  "i" = "shrink_selection",  "p" = "select_prev_sibling",  "n" = "select_next_sibling",  "a" = "select_all_siblings",  "e" = "move_parent_node_end",  "b" = "move_parent_node_start"}
