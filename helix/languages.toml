@@ -20,3 +20,8 @@ command = "clippy"
 
 # For html+css: https://github.com/helix-editor/helix/wiki/Language-Server-Configurations#html
 # npm i -g vscode-langservers-extracted
+[[language]]
+name = "html"
+# language-server = { command = "html-languageserver", args = ["--stdio"] }
+# auto-format = true
+auto-pairs = true
