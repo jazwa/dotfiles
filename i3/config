@@ -197,3 +197,12 @@ bar {
         status_command i3status
         font pango:DejaVu Sans Mono 12
 }
+
+default_border pixel 0 
+default_floating_border pixel 0 
+
+bar {
+    mode hide
+    hidden_state hide
+    modifier Mod4
+}
