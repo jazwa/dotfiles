@@ -16,6 +16,8 @@ plugins.black.enabled = true
 name="rust"
 [language-server.rust-analyzer.config.check]
 command = "clippy"
+auto-format = true
+diagnostic-severity = "error"
 
 
 # For html+css: https://github.com/helix-editor/helix/wiki/Language-Server-Configurations#html

@@ -27,3 +27,6 @@ C-g = [
     ":reload-all"
 ]
 g = { "o"= "flip_selections"}
+
+[editor.file-picker]
+hidden = false
